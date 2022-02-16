@@ -1,37 +1,29 @@
 body{
+    color: #FFFFFF;
+    /*height: 1000px;*/
     font-family: Raleway;
     box-sizing: border-box;
     background: linear-gradient(180deg, #92DDC2 0%, #544E94 100%) no-repeat;
 }
-div{
-    width: 376px;
-    height: 667px;
+.form__box{
+    width: 375px;
     background: #0A0171;
     border: 1px solid #FFFFFF;
     box-shadow: 30px 30px 35px rgba(10, 1, 113, 0.3);
     border-radius: 30px;
-    margin: 326px 730px;
+    margin: 100px auto;
     text-align: center;
+    padding: 92px 20px 58px;
 }
-img{
-    margin: 92px 99px 51px;
-}
-h1{
-    margin: 0 auto;
-    
+.title{
+    margin-top: 50px;
+    font-weight: bold;
     font-size: 20px;
-    line-height: 23px;
-    color: #FFFFFF;
 }
-p{
-    font-family: Raleway;
+.subtitle{
     font-size: 16px;
     line-height: 19px;
-    color: #FFFFFF;
-    margin-top: 27px;
-}
-form{
-    margin: 24px 20px 0;
+    margin: 24px 0;
 }
 input{
     width: 335px;
@@ -39,14 +31,14 @@ input{
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 20px;
-    margin-bottom: 12px;
-    background: transparent;
-    text-align: left;
-    font-family: Raleway;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
+    background: inherit;
     padding: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
 }
 input::placeholder{
     font-family: Raleway;
@@ -54,16 +46,13 @@ input::placeholder{
     line-height: 16px;
     color: #FFFFFF;
 }
-button{
+.btn{
     width: 335px;
     height: 58px;
     background: #2BC990;
     border-radius: 20px;
-    margin-top: 13px;
-    cursor: pointer;
-    font-family: Raleway;
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
-    color: #FFFFFF;
-}
+    margin-top: 24px;
+    }
